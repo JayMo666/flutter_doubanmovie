@@ -1,16 +1,24 @@
 # flutter_doubanmovie
 
-A new Flutter project.
+flutter 实现豆瓣电影应用
 
-## Getting Started
+## 开发环境
+- 配置 Flutter 中国镜像
+> 设置两个环境变量：`PUB_HOSTED_URL:https://pub.flutter-io.cn` 和 `FLUTTER_STORAGE_BASE_URL:https://storage.flutter-io.cn`。
 
-This project is a starting point for a Flutter application.
+- Flutter SDK 
+>下载地址：https://flutter.dev/docs/development/tools/sdk/archive?tab=windows
+> `Path:E:\src\flutter\bin`(根据实际安装目录)
 
-A few resources to get you started if this is your first Flutter project:
+- 安装 Android Studio，安装成功后，会自带 Android SDK。
+> 地址：https://developer.android.google.cn/studio/
+> 环境变量： Path：(替换成 Android SDK 路径)/tools;(替换成 Android SDK 路径)/platform-tools`
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- AVD Manager
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+最后，运行 flutter doctor检查是否安装成功
+
+可能遇到 Flutter 的报错，请按照报错的提示修复，例如：
+
+*   Some Android licenses not accepted（Android证书的问题）
+运行 `flutter doctor --android-licenses` 修复
