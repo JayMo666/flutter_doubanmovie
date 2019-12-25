@@ -22,3 +22,5 @@ flutter 实现豆瓣电影应用
 
 *   Some Android licenses not accepted（Android证书的问题）
 运行 `flutter doctor --android-licenses` 修复
+
+VSCode F5(调试运行)可热更新
